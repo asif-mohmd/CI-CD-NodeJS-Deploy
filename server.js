@@ -9,7 +9,7 @@ app.get("/api/get",(req,res)=>{
 app.get("/api/get_user",(req,res)=>{
     res.send({
         user:{
-            name:"asif",
+            name:"asiff",
             age:22,
             contact:1234
         }
