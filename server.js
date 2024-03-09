@@ -16,6 +16,7 @@ app.get("/api/get_user",(req,res)=>{
         },
         env:process.env.NAME
     })
+    
 })
 
 app.get("/api/admin",(req,res)=>{
