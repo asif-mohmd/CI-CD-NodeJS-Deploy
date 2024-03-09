@@ -25,6 +25,6 @@ app.get("/api/admin",(req,res)=>{
 })
 
 
-app.listen(8000,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("Server started running on 8000 port")
 })
