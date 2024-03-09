@@ -8,6 +8,7 @@ app.get("/api/get",(req,res)=>{
 })
 
 app.get("/api/get_user",(req,res)=>{
+    
     res.send({
         user:{
             name:"asif",
@@ -16,7 +17,7 @@ app.get("/api/get_user",(req,res)=>{
         },
         env:process.env.NAME
     })
-    
+
 })
 
 app.get("/api/admin",(req,res)=>{
