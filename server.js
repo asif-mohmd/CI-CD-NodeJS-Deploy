@@ -17,7 +17,7 @@ app.get("/api/get_user",(req,res)=>{
 })
 
 app.get("/api/admin",(req,res)=>{
-    res.send("i am the Admin")
+    res.send("i am the Admin working")
 })
 
 
