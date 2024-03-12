@@ -24,7 +24,7 @@ app.get("/api/admin",(req,res)=>{
     res.send("i am the Admin working")
 })
 
-
+console.log("Demoooooooooooooooooooo")
 app.listen(8000,()=>{
     console.log("Server started running on 8000 port")
 })
