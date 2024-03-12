@@ -11,7 +11,7 @@ app.get("/api/get_user",(req,res)=>{
     
     res.send({
         user:{
-            name:"asiffffffffff",
+            name:"test",
             age:22,
             contact:1234
         },
